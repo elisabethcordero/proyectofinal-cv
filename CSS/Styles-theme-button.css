@@ -1,0 +1,49 @@
+
+  .container-btn-mode{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+    color:#81817d;
+    border: solid white 1px;
+  }
+
+  .btn-mode.sun.active {
+    border: solid black 1px;
+  }
+  
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid black 1px;
+  }
+
+  .btn-mode.moon.active{
+    background-color:rgb(110, 106, 106);
+    border: white 1px solid;
+  }
+
+  .active {
+    background-color:black;
+    color:#e2f321 !important;
+  }
